@@ -1,0 +1,10 @@
+{
+  "appId": "com.sabermortal11.icfes",
+  "appName": "Saber Mortal 11",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "android": {
+    "backgroundColor": "#09090b",
+    "allowMixedContent": false
+  }
+}

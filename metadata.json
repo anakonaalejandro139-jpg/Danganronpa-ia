@@ -1,0 +1,6 @@
+{
+  "name": "Danganronpa: Saber Mortal 11°",
+  "description": "Fanganronpa colombiano ubicado en la sede del ICFES con 16 estudiantes, Monokuma V3, Alibi Puzzle y todas las mecánicas de juicio de Danganronpa V3.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

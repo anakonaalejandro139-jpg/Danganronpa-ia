@@ -1,0 +1,28 @@
+{
+  "appId": "com.sabermortal11.icfes",
+  "productName": "Danganronpa Saber Mortal 11",
+  "directories": {
+    "output": "release"
+  },
+  "files": [
+    "dist/**/*",
+    "electron/**/*",
+    "public/pwa-512x512.png",
+    "public/favicon.ico",
+    "package.json"
+  ],
+  "win": {
+    "target": [
+      {
+        "target": "portable",
+        "arch": ["x64"]
+      },
+      {
+        "target": "nsis",
+        "arch": ["x64"]
+      }
+    ],
+    "icon": "public/favicon.ico",
+    "artifactName": "SaberMortal11-${version}-${target}.${ext}"
+  }
+}
